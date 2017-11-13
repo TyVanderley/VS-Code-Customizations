@@ -1,0 +1,22 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 10,
+  "editor.minimap.enabled": false,
+  "workbench.panel.location": "bottom",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#21252B",
+    "activityBar.border": "#181A1F",
+    "editor.background": "#282C34",
+    "editor.hoverHighlightBackground": "#424858",
+    "editor.lineHighlightBackground": "#2C313C",
+    "editor.lineHighlightBorder": "#2C313C",
+    "editorGroup.border": "#181A1F",
+    "sideBar.background": "#21252B",
+    "statusBar.background": "#21252B",
+    "statusBar.border": "#181A1F"
+  },
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 10  
+}

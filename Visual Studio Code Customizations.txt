@@ -23,6 +23,5 @@
     "titleBar.border": "#181A1F"
   },
   "editor.overviewRulerBorder": false,
-  "editor.scrollbar.verticalScrollbarSize": 10,
-  "workbench.colorTheme": "Skeletor"
+  "editor.scrollbar.verticalScrollbarSize": 10
 }

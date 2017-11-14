@@ -13,10 +13,16 @@
     "editor.lineHighlightBackground": "#2C313C",
     "editor.lineHighlightBorder": "#2C313C",
     "editorGroup.border": "#181A1F",
+    "editorGroupHeader.tabsBackground": "#21252B",
     "sideBar.background": "#21252B",
     "statusBar.background": "#21252B",
-    "statusBar.border": "#181A1F"
+    "statusBar.border": "#181A1F",
+    "tab.border": "#181A1F",
+    "tab.inactiveBackground": "#21252B",
+    "titleBar.activeBackground": "#282C34",
+    "titleBar.border": "#181A1F"
   },
   "editor.overviewRulerBorder": false,
-  "editor.scrollbar.verticalScrollbarSize": 10  
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "workbench.colorTheme": "Skeletor"
 }

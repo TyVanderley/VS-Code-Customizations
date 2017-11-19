@@ -15,6 +15,7 @@
     "editorGroup.border": "#181A1F",
     "editorGroupHeader.tabsBackground": "#21252B",
     "editorSuggestWidget.border": "#181A1F",
+    "focusBorder": "#181a1f",
     "panel.border": "#181A1F",
     "sideBar.background": "#21252B",
     "sideBar.border": "#181A1F",
@@ -26,5 +27,6 @@
     "titleBar.border": "#181A1F"
   },
   "editor.overviewRulerBorder": false,
-  "editor.scrollbar.verticalScrollbarSize": 10
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "workbench.activityBar.visible": true
 }

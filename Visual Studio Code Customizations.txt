@@ -6,7 +6,7 @@
   "editor.minimap.enabled": false,
   "workbench.panel.location": "bottom",
   "workbench.colorCustomizations": {
-    "activityBar.background": "#21252B",
+    "activityBar.background": "#32373d",
     "activityBar.border": "#181A1F",
     "editor.background": "#1e2127",
     "editor.hoverHighlightBackground": "#424858",
@@ -28,5 +28,6 @@
   },
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.verticalScrollbarSize": 10,
-  "workbench.activityBar.visible": true
+  "workbench.activityBar.visible": true,
+  "prettier.singleQuote": true
 }

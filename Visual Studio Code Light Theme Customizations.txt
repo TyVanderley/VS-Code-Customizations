@@ -8,14 +8,14 @@
   "workbench.colorCustomizations": {
     "activityBar.background": "#ebebeb",
     "activityBar.foreground": "#424242",
-    "activityBar.border": "#999999",
+    "activityBar.border": "#c7c7c7",
     "editorGroup.border": "#181A1F",
     "focusBorder": "#181a1f",
     "panel.border": "#181A1F",
     "sideBar.border": "#181A1F",
     "statusBar.background": "#ebebeb",
     "statusBar.foreground": "#424242",
-    "statusBar.border": "#999999",
+    "statusBar.border": "#c7c7c7",
     "statusBarItem.hoverBackground": "#ffffff",
     "tab.border": "#181A1F",
     "editorGroupHeader.tabsBorder": "#181A1F",
@@ -23,7 +23,7 @@
     "titleBar.activeForeground": "#424242",
     "titleBar.inactiveBackground": "#E6E6E6",
     "titleBar.inactiveForeground": "#999999",
-    "titleBar.border": "#999999"
+    "titleBar.border": "#c7c7c7"
   },
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.verticalScrollbarSize": 10,

@@ -19,6 +19,7 @@
     "statusBarItem.hoverBackground": "#ffffff",
     "tab.border": "#181A1F",
     "editorGroupHeader.tabsBorder": "#181A1F",
+    "tab.activeBorder": "#7DB3C7",
     "titleBar.activeBackground": "#E6E6E6",
     "titleBar.activeForeground": "#424242",
     "titleBar.inactiveBackground": "#E6E6E6",
@@ -31,5 +32,9 @@
   "prettier.singleQuote": true,
   "workbench.colorTheme": "Nord",
   "workbench.editor.tabCloseButton": "left",
-  "zenMode.hideTabs": false
+  "prettier.disableLanguages": [
+    "javascript"
+  ],
+  "zenMode.hideTabs": false,
+  "php.suggest.basic": false
 }

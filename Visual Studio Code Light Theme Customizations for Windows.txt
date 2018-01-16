@@ -1,0 +1,42 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 11,
+  "editor.minimap.enabled": false,
+  "workbench.panel.location": "bottom",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#ebebeb",
+    "activityBar.foreground": "#424242",
+    "activityBar.border": "#c7c7c7",
+    "editorGroup.border": "#181A1F",
+    "focusBorder": "#181a1f",
+    "panel.border": "#181A1F",
+    "sideBar.border": "#181A1F",
+    "statusBar.background": "#ebebeb",
+    "statusBar.foreground": "#424242",
+    "statusBar.border": "#c7c7c7",
+    "statusBarItem.hoverBackground": "#ffffff",
+    "tab.border": "#181A1F",
+    "editorGroupHeader.tabsBorder": "#181A1F",
+    "tab.activeBorder": "#7DB3C7",
+    "titleBar.activeBackground": "#E6E6E6",
+    "titleBar.activeForeground": "#424242",
+    "titleBar.inactiveBackground": "#E6E6E6",
+    "titleBar.inactiveForeground": "#999999",
+    "titleBar.border": "#c7c7c7"
+  },
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "workbench.activityBar.visible": true,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Nord",
+  "workbench.editor.tabCloseButton": "left",
+  "prettier.disableLanguages": [
+    "javascript"
+  ],
+  "zenMode.hideTabs": false,
+  "php.suggest.basic": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.menuBarVisibility": "toggle"
+}

@@ -36,5 +36,6 @@
     "javascript"
   ],
   "zenMode.hideTabs": false,
-  "php.suggest.basic": false
+  "php.suggest.basic": false,
+  "workbench.statusBar.feedback.visible": false
 }

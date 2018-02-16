@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "window.zoomLevel": 0,
-  "editor.fontSize": 11,
+  "editor.fontSize": 10,
   "editor.minimap.enabled": false,
   "workbench.panel.location": "bottom",
   "workbench.colorCustomizations": {
@@ -36,5 +36,5 @@
   "window.menuBarVisibility": "toggle",
   "workbench.statusBar.feedback.visible": false,
   "editor.fontFamily": "'Meslo LG S DZ Regular', Consolas, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 11
+  "terminal.integrated.fontSize": 10
 }

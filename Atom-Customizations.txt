@@ -9,94 +9,108 @@
  * http://lesscss.org
  */
 
+// Colors
+@color-github-icon-backgrounds: #2E3440;
+@color-github-icon-hover-foreground: #4C566A;
+@color-white: #fff;
+@color-dark-border: #181a1f;
+@color-tab-inactive: #2e3440;
+@color-tab-inactive-font: #6b7994;
+@color-tab-active: #3B4252;
+@color-tab-active-border: #7db3c7;
+@color-tab-active-font: #e6e8ed;
+
 // Measurements
 @status-bar-height: 20px;
 
-// Theme base colors
-@color-skeletor-dark: #2B2836;
-@color-default-dark: #282C34;
-@color-base-16-dark: #1D1F21;
+* {
+  font-size: 11px;
+}
 
-// Generic colors for use in various elements
-@color-space-gray: #1e2127;
-@color-light-space-gray: #21252B;
-@color-dark-space-gray: #181A1F;
-
-// Purpose created colors
-@color-tab-hover: #D37528;
-@color-tab-click: rgba(211,117,40, 0.5);
-
-.title-bar {
-  background-color: @color-space-gray;
-
-  .title {
-    color: white;
+atom-pane-container {
+  atom-pane {
+    border-right: 1px solid @color-dark-border;
   }
+}
+
+.atom-dock-inner.atom-dock-open.left {
+  border-right: none;
+}
+
+.tree-view,
+.tab-bar[location="left"] {
+  border-right: 1px solid @color-dark-border;
+}
+
+// This is necessary to target specifically because it represents the tree view bar.
+.tab-bar[location="left"] {
+  border-bottom: none;
 }
 
 .tab-bar {
-  background: @color-light-space-gray;
+  background-color: @color-tab-inactive;
+  box-shadow: none;
+  border-bottom: 1px solid @color-dark-border;
 
-  .tab {
-    background: @color-light-space-gray;
+  li.texteditor.tab.sortable,
+  li.tab.sortable[data-type="SettingsView"] {
+    background-color: @color-tab-inactive;
+    border-left: none;
+    border-right: 1px solid @color-dark-border;
+  }
 
-    .close-icon:hover {
-      background-color: @color-tab-hover;
+  li.texteditor.tab.sortable.active,
+  li.tab.sortable.active[data-type="SettingsView"] {
+    background-color: @color-tab-active;
+    border-bottom: 1px solid @color-tab-active-border;
+    color: @color-tab-active-font;
+
+    &::before {
+      display:none;
     }
 
-    .close-icon:active {
-      background-color: @color-tab-click;
+    &:last-of-type {
+      box-shadow: none;
     }
   }
 
-  .tab.active[data-type$="Editor"] {
-    background-color: @color-space-gray;
+  li.tab.sortable[data-type="SettingsView"] {
+    box-shadow: none;
+    color: @color-tab-inactive-font;
   }
-}
-
-.gutter-container {
-  .gutter {
-    background-color: @color-space-gray;
-
-    .line-number {
-      color: #636d83;
-    }
-
-    .line-number.cursor-line {
-      background-color: #2c313a;
-      color: #abb2bf;
-    }
-
-    .line-number.cursor-line.cursor-line-no-selection {
-      background-color: transparent;
-    }
-  }
-}
-
-atom-pane.active .tab.active:before {
-  background: @color-dark-space-gray;
-  width: 1px;
-}
-
-atom-text-editor {
-  background-color: @color-space-gray;
-}
-
-// style the background color of the tree view
-.tree-view {
-  background-color: @color-light-space-gray;
 }
 
 .status-bar {
-  background-color: @color-light-space-gray;
-  line-height: @status-bar-height;
+  font-size: 1em;
   height: @status-bar-height;
-}
+  line-height: @status-bar-height;
 
-.platformio-ide-terminal .xterm {
-  background-color: @color-space-gray;
-}
+  .github-StatusBarTileController {
+    background-color: @color-github-icon-backgrounds;
+    border-radius: 8px;
+    height: 19px;
+    padding: 0 10px;
+    margin: 0 10px;
 
-atom-text-editor .indent-guide, atom-text-editor .indent-guide {
-  color: #404040;
+    *,
+    a {
+      color: @color-white;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    div {
+      &:hover {
+        * {
+          color: @color-github-icon-hover-foreground;
+        }
+      }
+    }
+
+    a:hover {
+      color: @color-github-icon-hover-foreground;
+    }
+  }
 }

@@ -52,6 +52,12 @@ atom-pane-container {
   box-shadow: none;
   border-bottom: 1px solid @color-dark-border;
 
+  .tab {
+    &:last-of-type {
+      box-shadow: none;
+    }
+  }
+
   li.texteditor.tab.sortable,
   li.tab.sortable[data-type="SettingsView"] {
     background-color: @color-tab-inactive;

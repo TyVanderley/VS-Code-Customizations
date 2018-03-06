@@ -53,6 +53,11 @@ atom-pane-container {
   border-bottom: 1px solid @color-dark-border;
 
   .tab {
+    .close-icon {
+      left: 0.5em;
+      right: 0;
+    }
+
     &:last-of-type {
       box-shadow: none;
     }
